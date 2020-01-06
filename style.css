@@ -1,1 +1,12 @@
-# extension
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background: red;
+}
+
+.subscribtion {
+    
+}

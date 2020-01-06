@@ -1,1 +1,5 @@
-# extension
+{
+    "manifest_version": 2,
+    "name": "Opencharge",
+    "version": "0.1"
+  }
