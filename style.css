@@ -111,10 +111,12 @@
     background: rgba(255,255,255, 0.3);
     width: 50%;
     color: #fff;
+}
 
 .recommendation__try {
     color: #fff;
     width: 50%;
+}
 
 
 .recommendation__logo {
