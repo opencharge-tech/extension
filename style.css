@@ -96,15 +96,30 @@
     opacity: 0.8;
 }
 
-.bar__item_view_active {
-    opacity: 1;
+.subscription {
+    width: 170px;
+    height: 128px;
+    border-radius: 12px;
+    padding: 12px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.subscription__logo {
+    width: 80px;
+}
+.subscription__period {
+    font-size: 12px;
+    line-height: 14px;
+}
+.subscription__amount {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
 }
 
-
-
-
-
-
-.subscribtion {
-
+.theme_color_netflix-brand {
+    background-color: #D22F27;
+    color: #fff;
 }
