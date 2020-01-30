@@ -22,6 +22,7 @@
     font-size: 16px;
     line-height: 20px;
     opacity: 0.7;
+    margin-bottom: 24px;
 }
 
 .header__container {
@@ -262,22 +263,6 @@
     opacity: 0.8;
 }
 
-.subscription-wrapper {
-    padding: 0px 24px;
-    margin-bottom: 24px;
-}
-.subscription-wrapper__list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 16px;
-}
-.subscription-wrapper__header {
-    display: flex;
-    justify-content: space-between;
-    font-size: 18px;
-    line-height: 22px;
-    margin-bottom: 16px;
-}
 
 .subscription {
     /* width: 170px; */
@@ -313,14 +298,7 @@
     opacity: 0.7;
 }
 
-.history {
-    padding: 0px 24px;
-}
-.history__header {
-    font-size: 18px;
-    line-height: 22px;
-    margin-bottom: 20px;
-}
+
 .history__item {
     display: flex;
     justify-content: space-between;
@@ -336,15 +314,41 @@
     opacity: 0.7;
 }
 
+/* THEME */
 .theme_color_netflix-brand {
     background-color: #D22F27;
 }
 .theme_color_spotify-brand {
     background-color: #02DF82;
 }
+
+/* TYPOGRAPHY */
 .text_bold {
     font-weight: 500;
 }
 .text_link {
     color: #8A80AD;
+}
+
+/* LAYOUT */
+.section {
+    padding: 0px 24px;
+    margin-bottom: 24px;
+}
+.section__header {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.distribute_between {
+    display: flex;
+    justify-content: space-between;
+}
+.list__item {
+    margin-bottom: 16px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
 }
