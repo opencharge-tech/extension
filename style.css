@@ -124,24 +124,7 @@
     margin-bottom: 32px;
 }
 
-.swipe {
-    overflow-x: scroll;
-}
 
-.swipe__scroll {
-    display: flex;
-    margin-left: 24px;
-    padding-bottom: 20px;
-    width: 562px;
-}
-
-.swipe__item {
-    height: 128px;
-    width: 172px;
-    background: #464646;
-    border-radius: 12px;
-    margin-right: 12px;
-}
 
 .rating {
 
@@ -351,4 +334,21 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 16px;
+}
+.swipe {
+    overflow-x: scroll;
+    margin-bottom: 24px;
+}
+.swipe__scroll {
+    display: flex;
+    margin-left: 24px;
+    padding-bottom: 20px;
+    width: 562px;
+}
+.swipe__item {
+    height: 128px;
+    width: 172px;
+    background: #464646;
+    border-radius: 12px;
+    margin-right: 12px;
 }
