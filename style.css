@@ -335,6 +335,8 @@
 }
 .text_link {
     color: #8A80AD;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /* LAYOUT */
