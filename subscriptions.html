@@ -7,7 +7,7 @@
     <title>Subscriptions</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="page">
+<body class="page page_space_bottom">
     <div class="header">
         <div class="header__container">
             <div class="header__title">
@@ -17,17 +17,24 @@
                 Privacy and everything it entails is not easy to explain.
             </div>
             <div class="header__actions analytics">
-                <div class="analytics__daily">
+                <div class="analytics__item">
+                    <div class="analytics__graph analytics__graph_view_daily"></div>
+                    <div class="analytics__description">
                         <div class="analytics_period">Avarage daily</div>
                         <div class="analytics_amount text_bold">$8</div>
+                    </div>
                 </div>
-                <div class="analytics__monthly">
-                    <div class="analytics_period">Month expenses</div>
-                    <div class="analytics_amount text_bold">$128</div>
+                <div class="analytics__item">
+                    <div class="analytics__graph analytics__graph_view_monthly"></div>
+                    <div class="analytics__description">
+                        <div class="analytics_period">Month expenses</div>
+                        <div class="analytics_amount text_bold">$128</div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="section">
         <div class="section__header distribute_between">
             <div>Active</div>
@@ -75,6 +82,7 @@
             <a href="new-card.html" class="subscription subscription__add">add new</a>
         </div>
     </div>
+    
     <div class="section">
         <div class="section__header">History</div>
         <div class="list">

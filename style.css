@@ -132,45 +132,14 @@
     align-items: center;
 }
 
-.rating__brand {
-    align-items: center;
-    display: flex;
-
+.rating__period {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.6);
 }
 
-.rating__logo {
-    width: 40px;
-    height: 40px;
-    background: green;
-    margin-right: 12px;
-    border-radius: 3px;
+.rating__name { 
+    margin-bottom: 4px;
 }
-
-.rating__logo_view_spotify {
-    background: #02DF82;
-}
-
-.rating__logo_view_bookmate {
-    background: rgb(157, 119, 96);
-}
-
-.rating__logo_view_youtube {
-    background: rgb(230, 33, 23);
-}
-
-.rating__logo_view_amazon {
-    background: rgb(255, 153, 0);
-}
-
-.rating__logo_view_dropbox {
-    background: #0060ff;
-}
-
-.rating__name {
-    font-size: 16px;
-    color: #fff;
-}
-
 
 .rating__score {
     font-size: 16px;
@@ -289,6 +258,34 @@
     justify-content: center;
 }
 
+.analytics__item {
+   display: flex;
+}
+
+.analytics__graph {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.analytics_period {
+    margin-bottom: 4px;
+}
+
+.analytics__graph_view_daily {
+    background-image: url(assets/analytics-daily.svg);
+}
+
+.analytics__graph_view_monthly {
+    background-image: url(assets/analytics-monthly.svg);
+}
+
+.analytics__description {
+    margin-left: 12px;
+}
+
 .analytics_period {
     opacity: 0.7;
 }
@@ -302,6 +299,7 @@
 .history__title {
     font-size: 16px;
     line-height: 20px;
+    margin-bottom: 4px;
 }
 .history__period {
     font-size: 12px;
