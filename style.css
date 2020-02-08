@@ -123,6 +123,7 @@
     justify-content: center;
     align-items: center;
     height: 49px;
+    text-decoration: none;
 }
 
 .recommendation__try {
@@ -132,6 +133,7 @@
     justify-content: center;
     align-items: center;
     height: 49px;
+    text-decoration: none;
 }
 
 
@@ -212,6 +214,7 @@
     align-items: center;
     padding: 24px;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 .auth__logo {
@@ -271,6 +274,10 @@
     opacity: 0.8;
 }
 
+.bar__item_view_active {
+    opacity: 1;
+}
+
 
 .subscription {
     /* width: 170px; */
@@ -320,6 +327,100 @@
     font-size: 12px;
     line-height: 14px;
     opacity: 0.7;
+}
+
+.card-limits {
+    background: rgba(255,255,255, 0.1);
+    padding: 24px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.card-limits__tabs {
+    display: flex;
+    height: 72px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #58565E;
+    margin-bottom: 20px;
+}
+
+.card-limits__item {
+    color: rgba(255,255,255, 0.3);
+}
+
+.card-limits__item_state_active {
+    color: rgba(255,255,255, 1);
+}
+
+.card-limits__price {
+    font-size: 42px;
+}
+
+.card-limits__info {
+    text-align: left;
+    color: rgba(244, 242, 251, 0.6);
+    display: flex;
+}
+
+.card-limits__info-icon {
+    width: 17px;
+    height: 17px;
+    flex-shrink: 0;
+    background-image: url('assets/warning.svg');
+}
+
+.card-limits__info-text {
+    margin-left: 12px;
+    font-size: 15px;
+}
+
+.button {
+    height: 48px;
+    padding: 0px 12px;
+    background-color: #795CB1;
+    color: #fff;
+    border: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.settings-card-preview {
+    height: 120px;
+    background-color: #D22F27;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.settings-card-preview__logo {
+    width: 120px;
+    height: 32px;
+    background-image: url('assets/netflix-24.svg');
+    background-repeat: no-repeat;
+}
+
+.settings-card-preview__more {
+    width: 6px;
+    height: 16px;
+    background-image: url('assets/more-dotted.svg');
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    margin-top: -8px;
+}
+
+.textinput {
+    height: 48px;
+    background: rgba(255,255,255, 0.1);
+    border-radius: 8px;
+    padding: 0px 12px;
+    display: flex;
+    align-items: center;
 }
 
 /* THEME */
