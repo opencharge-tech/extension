@@ -97,7 +97,6 @@
 
 .recommendation {
     height: 320px;
-    background-color: #D22F27;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -119,6 +118,7 @@
 
 .recommendation__logo {
     margin-bottom: 32px;
+    width: 160px;
 }
 
 .rating {
@@ -397,6 +397,12 @@
 }
 .theme_color_spotify-brand {
     background-color: #02DF82;
+}
+.theme_color_apple-brand {
+    background-color: #000;
+}
+.theme_color_dropbox-brand {
+    background-color: #0D2481;
 }
 
 /* TYPOGRAPHY */
