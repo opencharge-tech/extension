@@ -21,6 +21,7 @@
 .header__back {
     font-size: 18px;
     line-height: 22px;
+    display: block;
     margin-bottom: 20px;
 }
 
@@ -480,4 +481,37 @@
     background: #464646;
     border-radius: 12px;
     margin-right: 12px;
+}
+.form {
+    display: flex;
+}
+.button_wrapper {
+    margin-left: 16px;
+}
+
+/* CONTROLS */
+input {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: rgba(255,255,255, 0.1);
+    border-radius: 10px;
+    color: rgba(255,255,255, 0.6);
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+input:focus {
+    outline: none;
+    box-shadow: inset 0px 0px 0px 2px #795CB1;
+}
+.button {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 15px 24px;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: #795CB1;
 }
