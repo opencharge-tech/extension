@@ -122,6 +122,7 @@
     justify-content: center;
     align-items: center;
     height: 49px;
+    text-decoration: none;
 }
 
 .recommendation__try {
@@ -131,6 +132,7 @@
     justify-content: center;
     align-items: center;
     height: 49px;
+    text-decoration: none;
 }
 
 
@@ -211,6 +213,7 @@
     align-items: center;
     padding: 24px;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 .auth__logo {
@@ -268,6 +271,10 @@
 
 .bar__item:hover {
     opacity: 0.8;
+}
+
+.bar__item_view_active {
+    opacity: 1;
 }
 
 
