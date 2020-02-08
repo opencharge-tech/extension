@@ -444,7 +444,7 @@
 /* LAYOUT */
 .section {
     padding: 0px 24px;
-    margin-bottom: 24px;
+    margin-bottom: 32px;
 }
 .section__header {
     font-size: 18px;
@@ -482,6 +482,11 @@
 }
 .form {
     display: flex;
+}
+.label {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 12px;
 }
 .button_wrapper {
     margin-left: 16px;
