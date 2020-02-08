@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Opencharge",
+    "version": "0.1",
+    "icons": { "128": "icon_128.png" },
+    "browser_action": {
+      "default_icon": "icon_128.png",
+      "default_popup": "index.html"
+    },
+    "permissions": ["activeTab"]
+  }
