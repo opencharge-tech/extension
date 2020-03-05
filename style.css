@@ -4,6 +4,7 @@
     background: #29262f;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
     width: 375px;
 }
 
@@ -139,7 +140,7 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-.rating__name { 
+.rating__name {
     margin-bottom: 4px;
 }
 
@@ -503,7 +504,7 @@ input:focus {
 
 .button_view_tone {
     background-color: rgba(255,255,255, 0.3);
-    
+
 }
 
 .button_view_clean {
@@ -513,4 +514,153 @@ input:focus {
 .button_width_max {
     width: 100%;
     box-sizing: border-box;
+}
+
+.surface {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0, 0.5);
+}
+
+.surface__progress {
+    margin-bottom: 12px;
+}
+
+.surface__info {
+    margin-bottom: 48px;
+}
+
+.surface__content {
+    background-color: #795CB1;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.surface__more {
+    width: 6px;
+    height: 16px;
+    background-image: url('assets/more-dotted.svg');
+    position: absolute;
+    top: 57px;
+    right: 20px;
+    margin-top: -8px;
+}
+
+.surface__title {
+    font-size: 38px;
+    margin-bottom: 72px;
+}
+
+.surface__subtitle {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.surface__content {
+    font-size: 16px;
+}
+
+.surface__footer {
+    margin-top: 32px;
+}
+
+.surface__link {
+    margin-top: 16px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.progress {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+}
+
+.progress__internal {
+    height: 12px;
+    width: 77px;
+    background: #fff;
+    border-radius: 6px;
+}
+
+.subscriptions-found {
+
+}
+
+.subscription-found__section {
+    margin-bottom: 32px;
+}
+
+.subscriptions-found__title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.subscriptions-found__content {
+
+}
+
+.subscriptions-list {
+
+}
+
+.subscriptions-list__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.subscriptions-list__company {
+    display: flex;
+    align-items: center;
+}
+
+.subscriptions-list__logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 30px;
+  background-size: 100%;
+}
+
+.subscriptions-list__logo_name_netflix {
+    background-image: url('assets/dropbox-logo.png');
+}
+
+.subscriptions-list__logo_name_spotify {
+    background-image: url('assets/spotify-logo.png');
+}
+
+.subscriptions-list__logo_name_youtube {
+    background-image: url('assets/youtube-logo.png');
+}
+
+.subscriptions-list__logo_name_dropbox {
+    background-image: url('assets/dropbox-logo.png');
+}
+
+.subscriptions-list__info {
+    margin-left: 16px;
+}
+
+.subscriptions-list__name {
+    margin-bottom: 4px;
+}
+
+.subscriptions-list__description {
+    color: rgba(255,255,255, 0.6);
+}
+
+.subscriptions-list__button {
+
 }
