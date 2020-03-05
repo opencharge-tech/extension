@@ -19,6 +19,7 @@
 .header__title {
     font-size: 38px;
     line-height: 45px;
+    font-weight: 600;
     margin-bottom: 20px;
 }
 
@@ -285,6 +286,7 @@
 
 .analytics__description {
     margin-left: 12px;
+    max-width: 100px;
 }
 
 .analytics_period {
@@ -409,7 +411,7 @@
 
 /* TYPOGRAPHY */
 .text_bold {
-    font-weight: 500;
+    font-weight: 600;
 }
 .text_link {
     color: #8A80AD;
@@ -425,6 +427,7 @@
 .section__header {
     font-size: 18px;
     line-height: 22px;
+    font-weight: 600;
     margin-bottom: 20px;
 }
 .distribute_between {
