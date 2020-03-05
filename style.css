@@ -661,3 +661,81 @@ input:focus {
 .subscriptions-list__button {
 
 }
+
+.offers {
+
+}
+
+.offers__item {
+    margin-bottom: 16px;
+}
+
+.offer {
+    padding: 24px;
+    background-color: rgba(255,255,255, 0.1);
+    border-radius: 12px;
+}
+
+.offer__title {
+    font-size: 24px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.offer__info {
+    display: flex;
+}
+
+.offer__icon {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.offer__icon_view_info {
+    background-image: url('assets/info.svg');
+}
+
+
+.offer__icon_view_zip {
+    background-image: url('assets/zip.svg');
+}
+
+.offer__light {
+    display: inline;
+}
+
+.offer__inline {
+    display: inline;
+}
+
+
+.offer__light_view_info {
+    color: #79767c;
+}
+
+.offer__light_view_zip {
+    color: #fffc63;
+}
+
+.offer__block {
+    line-height: 21px;
+}
+
+
+.community__item {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.community__link {
+    display: block;
+    color: #8A80AD;
+    text-decoration: none;
+}
+
