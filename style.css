@@ -5,6 +5,7 @@
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
+    width: 375px;
 }
 
 .page_space_bottom {
@@ -403,6 +404,9 @@
 .theme_color_dropbox-brand {
     background-color: #0D2481;
 }
+.theme_color_rocket-brand {
+    background-color: #EF7D34;
+}
 
 /* TYPOGRAPHY */
 .text_bold {
@@ -657,4 +661,3 @@ input:focus {
 .subscriptions-list__button {
 
 }
-
