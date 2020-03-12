@@ -124,9 +124,6 @@
     width: 160px;
 }
 
-.rating {
-
-}
 
 .rating__item {
     display: flex;
@@ -147,10 +144,6 @@
 .rating__score {
     font-size: 16px;
     color: #fff;
-}
-
-.auth {
-
 }
 
 .auth__item {
@@ -227,7 +220,6 @@
 .bar__item_view_active {
     opacity: 1;
 }
-
 
 .subscription {
     /* width: 170px; */
@@ -409,6 +401,9 @@
 .theme_color_rocket-brand {
     background-color: #EF7D34;
 }
+.theme_color_opencharge-brand {
+    background-color: #795CB1;
+}
 
 /* TYPOGRAPHY */
 .text_bold {
@@ -525,16 +520,7 @@ input:focus {
     background: rgba(0,0,0, 0.5);
 }
 
-.surface__progress {
-    margin-bottom: 12px;
-}
-
-.surface__info {
-    margin-bottom: 48px;
-}
-
 .surface__content {
-    background-color: #795CB1;
     position: fixed;
     bottom: 0px;
     left: 0px;
@@ -542,16 +528,6 @@ input:focus {
     padding: 32px;
     box-sizing: border-box;
     border-radius: 12px 12px 0px 0px;
-}
-
-.surface__more {
-    width: 6px;
-    height: 16px;
-    background-image: url('assets/more-dotted.svg');
-    position: absolute;
-    top: 57px;
-    right: 20px;
-    margin-top: -8px;
 }
 
 .surface__title {
@@ -583,6 +559,7 @@ input:focus {
 .progress {
     background: rgba(255, 255, 255, 0.2);
     border-radius: 6px;
+    margin-bottom: 20px;
 }
 
 .progress__internal {
@@ -590,10 +567,6 @@ input:focus {
     width: 77px;
     background: #fff;
     border-radius: 6px;
-}
-
-.subscriptions-found {
-
 }
 
 .subscription-found__section {
